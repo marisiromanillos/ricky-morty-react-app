@@ -1,0 +1,19 @@
+.badge {
+  top: 7px;
+  right: 20px;
+  font-size: 15px;
+}
+
+.img {
+  border-radius: 10px 10px 0 0;
+}
+
+.cards {
+  border-radius: 10px;
+
+  background-color: #333333;
+}
+
+.imgP {
+  padding: 15px;
+}
