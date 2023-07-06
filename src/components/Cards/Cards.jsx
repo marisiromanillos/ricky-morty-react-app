@@ -8,7 +8,7 @@ const Cards = ({ results }) => {
       let { id, name, image, location, status } = x;
       return (
         <div key={id} className="col-4 mb-4 position-relative">
-          <div classNameName={styles.cards}>
+          <div className={styles.cards}>
             <img
               src={image}
               alt="character image"

@@ -23,17 +23,17 @@ const App = () => {
   }, [api]);
 
   return (
-    <div classNameName="App">
-      <h1 classNameName="text-center ubuntu my-4">
-        Rick & Morty <span classNameName="text-primary">Universe</span>
+    <div className="App">
+      <h1 className="text-center ubuntu my-4">
+        Rick & Morty <span className="text-primary">Universe</span>
       </h1>
       <Search setPageNumber={setPageNumber} setSearch={setSearch} />
-      <div classNameName="container">
-        <div classNameName="row">
+      <div className="container">
+        <div className="row">
           <Filters />
 
-          <div classNameName="col-8">
-            <div classNameName="row">
+          <div className="col-8">
+            <div className="row">
               <Cards results={results} />
             </div>
           </div>
